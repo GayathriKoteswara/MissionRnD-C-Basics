@@ -44,6 +44,9 @@ int main(){
 	if (check == 0){
 		printf("Both are of same age \n");
 	}
+	if (check == -1){
+		printf("invalid \n");
+	}
 	else{
 		printf("%d person is Older \n", check);
 	}
